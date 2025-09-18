@@ -1,0 +1,17 @@
+def bubbleSort(arr):
+    n = len(arr)
+    for i in range(n):
+        swapped = False
+        for j in range(0, n - i - 1):
+            if abs(arr[j]) > abs(arr[j + 1]):
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
+        if not swapped:
+            break
+    return arr
+
+
+print(
+    "Sorted array by absolute values: ",
+    bubbleSort([int(x) for x in input("Enter numbers separated by spaces: ").split()]),
+)

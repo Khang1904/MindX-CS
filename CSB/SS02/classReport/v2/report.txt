@@ -1,0 +1,4 @@
+---CLASS REPORT---
+Mean: 2781.6
+Median: 1234.0
+Mode: 71.0

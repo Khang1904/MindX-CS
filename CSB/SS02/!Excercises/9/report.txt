@@ -1,0 +1,4 @@
+Report on the list of numbers: [1, 2, 3, 4, 5]
+Mean: 3
+Median: 3
+Mode: 1
