@@ -1,4 +1,4 @@
-q = list(map(int, input("Enter list of customers: ").split(",")))
+q = input("Enter list of customers: ").split(",")
 
 for _ in range(int(input("Enter number of customers to serve: "))):
     print("Served:", q.pop(0))
