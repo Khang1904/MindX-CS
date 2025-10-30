@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Phân tích mối quan hệ giữa học vấn phụ huynh và thành tích học sinh
+    </title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f8f9fa;
+        color: #222;
+        margin: 40px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #2c3e50;
+      }
+      .emoji {
+        font-size: 1.3em;
+        margin-right: 6px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+        background: #fff;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background: #e9ecef;
+      }
+      tr:nth-child(even) {
+        background: #f2f2f2;
+      }
+      .section {
+        margin-bottom: 32px;
+      }
+      .conclusion {
+        background: #eafaf1;
+        border-left: 4px solid #27ae60;
+        padding: 16px;
+        margin: 24px 0;
+      }
+      .suggestion {
+        background: #f9f6e7;
+        border-left: 4px solid #f1c40f;
+        padding: 16px;
+        margin: 24px 0;
+      }
+      a {
+        color: #2980b9;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <span class="emoji">📊</span>Phân tích mối quan hệ giữa học vấn phụ huynh
+      và thành tích học sinh
+    </h1>
+
+    <div class="section">
+      <h2><span class="emoji">🎯</span>Vấn đề nghiên cứu</h2>
+      <p>
+        <strong
+          >Làm sao để cải thiện tỉ lệ học sinh đạt điểm cao trong môn
+          Toán?</strong
+        >
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><span class="emoji">❓</span>Câu hỏi nghiên cứu</h2>
+      <p>
+        <strong
+          >Nền tảng kiến thức của phụ huynh có liên hệ với điểm số học sinh hay
+          không?</strong
+        >
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><span class="emoji">🔗</span>Nguồn dữ liệu</h2>
+      <p>
+        <a
+          href="https://www.kaggle.com/datasets/muhammadroshaanriaz/students-performance-dataset-cleaned/data"
+          target="_blank"
+          >Students Performance Dataset (Cleaned) trên Kaggle</a
+        >
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><span class="emoji">📈</span>Phân tích dữ liệu</h2>
+      <p>Dựa trên khảo sát <strong>1000 học sinh</strong>, kết quả cho thấy:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>🎓 Trình độ học vấn phụ huynh</th>
+            <th>📐 Tỉ lệ học sinh đạt điểm Toán ≥ 8.0</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Thạc sĩ</td>
+            <td><strong>30.51%</strong></td>
+          </tr>
+          <tr>
+            <td>Cao đẳng</td>
+            <td><strong>27.03%</strong></td>
+          </tr>
+          <tr>
+            <td>Cử nhân</td>
+            <td><strong>23.73%</strong></td>
+          </tr>
+          <tr>
+            <td>1 phần Cao đẳng</td>
+            <td><strong>18.14%</strong></td>
+          </tr>
+          <tr>
+            <td>1 phần THPT</td>
+            <td><strong>14.53%</strong></td>
+          </tr>
+          <tr>
+            <td>THPT</td>
+            <td><strong>10.20%</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="conclusion">
+      <h3><span class="emoji">📝</span>Kết luận</h3>
+      <ul>
+        <li>
+          Có <strong>mối tương quan tích cực</strong> giữa trình độ học vấn của
+          phụ huynh và thành tích học tập của học sinh.
+        </li>
+        <li>
+          Học sinh có cha mẹ đạt trình độ <strong>Thạc sĩ</strong> có tỉ lệ đạt
+          điểm cao nhất (<strong>30.51%</strong>).
+        </li>
+        <li>
+          Tỉ lệ này <strong>giảm dần</strong> theo trình độ học vấn của phụ
+          huynh.
+        </li>
+        <li>
+          Học sinh có cha mẹ chỉ tốt nghiệp <strong>THPT</strong> có tỉ lệ đạt
+          điểm cao thấp nhất (<strong>10.20%</strong>).
+        </li>
+      </ul>
+      <blockquote>
+        <strong
+          >Cha mẹ càng có học vấn cao thì điểm số của con cái càng cao.</strong
+        >
+      </blockquote>
+    </div>
+
+    <div class="suggestion">
+      <h3><span class="emoji">🧠</span>Gợi ý cải thiện</h3>
+      <ul>
+        <li>Khuyến khích phụ huynh nâng cao trình độ học vấn.</li>
+        <li>
+          Tăng cường phối hợp giữa nhà trường và gia đình trong việc hỗ trợ học
+          tập.
+        </li>
+        <li>
+          Tổ chức các chương trình tư vấn, hướng dẫn học tập cho phụ huynh.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

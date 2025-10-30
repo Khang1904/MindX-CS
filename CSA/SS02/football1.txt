@@ -1,0 +1,12 @@
+Thu thập các thông tin:
+ - Tên
+ - Tuổi
+ - Quốc tịch
+ - Vị trí
+ - Chiều cao
+ - Đánh giá FIFA
+ - Giá trị (Euro)
+
+Tổ chức dữ liệu theo dạng bảng:
+ - Mỗi hàng là một cầu thủ
+ - Mỗi cột là một thông tin của cầu thủ đó

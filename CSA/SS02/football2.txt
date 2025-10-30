@@ -1,0 +1,4 @@
+1. Bảng chứa dữ liệu của cầu thủ bóng đá
+2. Mỗi cột biểu diễn một thông tin khác nhau của từng cầu thủ
+3. Cột age có kiểu dữ liệu định lượng
+4. Cột position có kiểu dữ liệu
